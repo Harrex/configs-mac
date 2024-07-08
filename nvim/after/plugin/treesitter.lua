@@ -8,6 +8,9 @@ require("nvim-treesitter.configs").setup(
         "html",
         "surface",
         "java",
+        "markdown",
+        "python",
+        "rust",
         ...
     },
 }

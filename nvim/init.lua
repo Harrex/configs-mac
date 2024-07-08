@@ -1,7 +1,11 @@
 require("harrek")
 require("harrek.lazy")
-require("harrek.theme")
+-- require("harrek.theme")
 require("harrek.settings")
+
+vim.g.markdown_fenced_languages = { 'html', 'python', 'bash', 'ruby', 'rust' }
+-- Python
+vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/nvim/bin/python3")
 
 -- Vimtex
 vim.g["vimtex_mappings_enabled"] = 0

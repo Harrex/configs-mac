@@ -1,6 +1,10 @@
+mpd-now-playable &
+
+
 # Scripting addon stuff
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
+
 
 yabai -m rule --add app="^Spotify$" sticky=on
 yabai -m rule --add app="^Spotify$" manage=off

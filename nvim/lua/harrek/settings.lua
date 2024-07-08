@@ -21,7 +21,7 @@ opt.incsearch = true
 opt.termguicolors = false
 opt.wrap = false
 opt.scrolloff = 8
-opt.signcolumn = "no"
+-- opt.signcolumn = "no"
 opt.updatetime = 50
 
 
