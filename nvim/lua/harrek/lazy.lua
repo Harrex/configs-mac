@@ -148,9 +148,9 @@ require("lazy").setup({
     -- },
 
 
-    -- {
-    --     'chrisbra/Colorizer'
-    -- },
+    {
+        'chrisbra/Colorizer'
+    },
 
     {
         'numToStr/Comment.nvim',
